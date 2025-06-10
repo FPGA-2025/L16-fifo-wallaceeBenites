@@ -31,6 +31,8 @@ always @(posedge clk, negedge rstn) begin
     end
 end
 
+
+
 always @(posedge clk, negedge rstn) begin
     if(~rstn)begin
         rd_pointer <= 0;
